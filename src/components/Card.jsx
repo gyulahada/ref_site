@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 const Card = ({ icon, description, description2 }) => {
     const [isHovered, setIsHovered] = useState(false);
 
