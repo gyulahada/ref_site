@@ -4,13 +4,12 @@ import HomePage from './pages/HomePage';
 import HeroesPage from './pages/HeroesPage';
 
 export default function App() {
-
   return (
-      <Router basename="/ref_site">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/HeroesPage" element={<HeroesPage />} />
-        </Routes>
-      </Router>
+    <Router basename="/ref_site">
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/HeroesPage" element={<HeroesPage />} />
+      </Routes>
+    </Router>
   );
 }
