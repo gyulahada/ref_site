@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import { Description } from '../components/HeroesDescription';
-import { DataTable } from '../components/HeroesList';
+import { DataTable } from '../components/DataTable';
 
 export default function HeroesPage() {
     return (
