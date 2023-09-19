@@ -34,7 +34,7 @@ const HeaderText = () => {
                 <p className="text-2xl text-white mt-6">here.</p>
             </div>
             <p className="text-xl text-gray-600 mt-6 mb-4">BJJ is more than just a sport!</p>
-            <link to="/HeroesPage" className="my-1 text-black bg-white rounded p-1.5 px-2.5 hover:bg-black hover:text-white mt-4 md:mt-0 md:mx-4 md:my-0">Heroes</link>
+            <Link to="/HeroesPage" className="my-1 text-black bg-white rounded p-1.5 px-2.5 hover:bg-black hover:text-white mt-4 md:mt-0 md:mx-4 md:my-0">Heroes</Link>
         </div>
     );
 }
