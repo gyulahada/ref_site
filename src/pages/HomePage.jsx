@@ -5,7 +5,7 @@ import WhoFor from '../components/WhoFor';
 import Members from '../components/Members';
 import CircleCounter from '../components/CircleCounter';
 
-export function HomePage() {
+export default function HomePage() {
 
 
   return (
