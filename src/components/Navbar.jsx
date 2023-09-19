@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="flex flex-col md:flex-row md:mx-6">
           <Link to="/" className="my-1 text-white pt-1.5 md:mx-4 md:my-0">Home</Link>
           <Link to="/contact" className="my-1 text-white pt-1.5 md:mx-4 md:my-0">Contact</Link>
-          <Link to="/heroes" className="my-1 text-black bg-white rounded p-1.5 px-2.5 hover:bg-black hover:text-white mt-4 md:mt-0 md:mx-4 md:my-0">Heroes</Link>
+          <Link to="/HeroesPage" className="my-1 text-black bg-white rounded p-1.5 px-2.5 hover:bg-black hover:text-white mt-4 md:mt-0 md:mx-4 md:my-0">Heroes</Link>
         </div>
       </div>
     </div>
